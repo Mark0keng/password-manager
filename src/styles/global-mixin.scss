@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  padding: 100px 5%;
+  height: 100%;
+}
+
+@mixin justifyBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin justifyStart {
+  display: flex;
+  justify-content: start;
+}

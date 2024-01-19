@@ -1,0 +1,39 @@
+{
+  "password": [
+    {
+      "id": "1",
+      "provider": "phincon.com",
+      "email": "mail@phincon.com",
+      "password": "Bethebest123",
+      "category": "work"
+    },
+    {
+      "id": "5855",
+      "email": "cate",
+      "provider": "sdasda",
+      "password": "asdasd",
+      "category": "family"
+    },
+    {
+      "id": "5856",
+      "email": "asdasd",
+      "provider": "sdasda",
+      "password": "asdasd",
+      "category": "work"
+    },
+    {
+      "id": "5857",
+      "email": "asdasd",
+      "provider": "sdasda",
+      "password": "asdasd",
+      "category": "personal"
+    },
+    {
+      "id": "7679",
+      "email": "farras.arkan@gmail.com",
+      "provider": "",
+      "password": "",
+      "category": ""
+    }
+  ]
+}
