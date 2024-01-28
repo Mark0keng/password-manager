@@ -52,12 +52,6 @@ const Home = () => {
     setIsOpenDeleteModal(false);
   };
 
-  const passwordValidation = (password) => {
-    if (password.length < 6) {
-      setError("Password mimimal 6 karakter");
-    }
-  };
-
   const fetchData = async () => {
     const response = await axios
       .get("http://localhost:3000/password")

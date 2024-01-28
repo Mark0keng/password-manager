@@ -2,13 +2,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "../../components/Navbar";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, Typography } from "@mui/material";
 
 const Category = () => {
   const { category } = useParams();
